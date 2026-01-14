@@ -8,21 +8,43 @@
 #     print("Invalid input")
 
 
-day = int(input("Enter week number (1-7): "))
 
-if day == 1:
-    print("Monday")
-elif day == 2:
-    print("Tuesday")
-elif day == 3:
-    print("Wednesday")
-elif day == 4:
-    print("Thursday")
-elif day == 5:
-    print("Friday")
-elif day == 6:
-    print("Saturday")
-elif day == 7:
-    print("Sunday")
+
+# day = int(input("Enter week number (1-7): "))
+
+# if day == 1:
+#     print("Monday")
+# elif day == 2:
+#     print("Tuesday")
+# elif day == 3:
+#     print("Wednesday")
+# elif day == 4:
+#     print("Thursday")
+# elif day == 5:
+#     print("Friday")
+# elif day == 6:
+#     print("Saturday")
+# elif day == 7:
+#     print("Sunday")
+# else:
+#     print("Invalid input! Please enter a number between 1 and 7.")
+
+
+
+
+
+
+
+#Python Code (Months)
+months = [
+    "January", "February", "March", "April",
+    "May", "June", "July", "August",
+    "September", "October", "November", "December"
+]
+
+num = int(input("Enter month number (1-12): "))
+
+if 1 <= num <= 12:
+    print(months[num-1])
 else:
-    print("Invalid input! Please enter a number between 1 and 7.")
+    print("Invalid input")
