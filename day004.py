@@ -105,3 +105,26 @@ frozenset()
 globals()
 locals()
 vars()
+
+
+# 📌 Most Important for Exams
+
+# print()
+
+# input()
+
+# len()
+
+# type()
+
+# range()
+
+# sum()
+
+# max()
+
+# min()
+
+# sorted()
+
+# abs()
