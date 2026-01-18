@@ -111,3 +111,57 @@ print("----------------")
 print("Reverse Order:")
 for i in range(n, 0, -1):
     print(i)
+
+
+
+
+
+
+
+
+#Opposite Loop Code (WHILE LOOP)
+# User input
+n = int(input("Enter a number: "))
+
+# Print numbers from 1 to n
+print("Numbers from 1 to", n)
+i = 1
+while i <= n:
+    print(i)
+    i += 1
+
+print("----------------")
+
+# Multiplication table using while loop
+print("Multiplication Table of", n)
+i = 1
+while i <= 10:
+    print(n, "x", i, "=", n * i)
+    i += 1
+
+print("----------------")
+
+# Count even and odd numbers
+even = 0
+odd = 0
+i = 1
+
+while i <= n:
+    if i % 2 == 0:
+        even += 1
+    else:
+        odd += 1
+    i += 1
+
+print("Even count:", even)
+print("Odd count:", odd)
+
+print("----------------")
+
+# Reverse order using while loop
+print("Reverse Order:")
+i = n
+while i >= 1:
+    print(i)
+    i -= 1
+
