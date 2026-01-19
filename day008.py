@@ -48,3 +48,17 @@ fruits = ["apple", "banana", "mango"]
 
 for fruit in fruits:
     print(fruit)
+
+
+                                #Using enumerate()
+names = ["Ram", "Shyam", "Mohan"]
+
+for index, name in enumerate(names):
+    print(index, name)
+                               #Using break
+for i in range(1, 10):
+    if i == 5:
+        break
+    print(i)
+    
+                                
