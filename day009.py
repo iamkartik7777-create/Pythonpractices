@@ -11,3 +11,17 @@ for num in range(1, 1001):
 
     if sum == num:
         print(num)
+
+#Check Armstrong Number (Using for loop only)
+num = int(input("Enter a number: "))
+
+digits = len(str(num))
+sum = 0
+
+for d in str(num):
+    sum = sum + (int(d) ** digits)
+
+if sum == num:
+    print(num, "is an Armstrong number")
+else:
+    print(num, "is NOT an Armstrong number")
