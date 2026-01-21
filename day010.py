@@ -21,3 +21,12 @@ while i < n:
     print(a, end=" ")
     a, b = b, a + b
     i += 1
+ 
+                                #Fibonacci Series (first 10 terms – direct)
+
+a = 0
+b = 1
+
+for i in range(10):
+    print(a, end=" ")
+    a, b = b, a + b
