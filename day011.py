@@ -39,9 +39,27 @@
 # print(z)
 
 
-num1 = 2
-num2 = 4
-num3 = 6
+# num1 = 2
+# num2 = 4
+# num3 = 6
 
-print(num1,num2,num3)
-print(num1, str(num1), float(num2), end=",")
+# print(num1,num2,num3)
+# print(num1, str(num1), float(num2), end=",")
+# print(num1+num2+num3)
+# print(num1-num2-num3)
+# print(num2/num3)
+# print(num1**4)
+# print(num3%2)
+
+# Arithmetic operators example in one program
+
+# a = 20
+# b = 6
+
+# print("Addition (+):", a + b)
+# print("Subtraction (-):", a - b)
+# print("Multiplication (*):", a * b)
+# print("Division (/):", a / b)
+# print("Floor Division (//):", a // b)
+# print("Modulus (%):", a % b)
+# print("Exponentiation (**):", a ** b)
