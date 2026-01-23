@@ -1,6 +1,6 @@
-name = "kartik singh"
-age = 22
-height =180.5
+# name = "kartik singh"
+# age = 22
+# height =180.5
 
 # print(type(name))
 # print(type(age))
@@ -20,3 +20,28 @@ height =180.5
 # print(name.split())
 
 
+
+
+# x = 30
+# y = 30 
+# z = 30
+
+# x = str(x)
+# y = str(y)
+# z = str(z)
+
+# x =float(x)
+# y =float(y)
+# z =float(z)
+
+# print(x)
+# print(y)
+# print(z)
+
+
+num1 = 2
+num2 = 4
+num3 = 6
+
+print(num1,num2,num3)
+print(num1, str(num1), float(num2), end=",")
