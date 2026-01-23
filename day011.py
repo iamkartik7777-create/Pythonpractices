@@ -11,3 +11,12 @@ height =180.5
 # print("and my height is :",(height))
 
 # print(len(name))
+# print(name.lower())
+# print(name.upper())
+# print (name.capitalize())
+# print(name.center(99))
+# print(name.title())
+# print(name.count("k"))
+# print(name.split())
+
+
