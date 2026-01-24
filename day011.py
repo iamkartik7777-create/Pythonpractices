@@ -63,3 +63,62 @@
 # print("Floor Division (//):", a // b)
 # print("Modulus (%):", a % b)
 # print("Exponentiation (**):", a ** b)
+
+
+
+# first_name = "python"
+# print(first_name[1:4])
+# print(first_name[0:7])
+# print(first_name[-1])
+# print(first_name[-6:-1])
+
+# text ="python"
+# print(text.endswith("on"))
+# print(text.endswith("ou"))
+
+# text = "i love java" 
+# print(text.replace("java","python"))
+# print(text.find("love"))
+# print(text.find("java"))
+# print(text.count("a"))
+
+# My_list = [10,20,30,40,50,60]
+# value =My_list[1]
+# print(value - My_list[2])
+
+# My_tuple = (1,21,2,3,4,5,3,4,5,6)
+# print(My_tuple.count(3))
+# print(type(My_tuple))
+
+
+d = {"name": "Kartik", "age": 20, "city": "Delhi"}
+
+print(d.get("name") )     # Kartik
+print(d.get("marks"))    # None
+
+print(d.keys())    #dict_keys(['name', 'age', 'city'])
+
+print(d.values())      #dict_values(['Kartik', 20, 'Delhi'])
+
+print(d.items())      #dict_items([('name', 'Kartik'), ('age', 20), ('city', 'Delhi')])
+
+d.update({"age": 21, "marks": 90})
+
+# d.pop("city")
+
+# d.popitem()
+
+# d.clear()
+
+# new_d = d.copy()
+# print(new_d)
+
+d.setdefault("country", "India")
+
+keys = ("a", "b", "c")
+dict.fromkeys(keys, 0)
+
+print(keys)
+
+# print(d)
+
