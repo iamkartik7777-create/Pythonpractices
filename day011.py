@@ -113,12 +113,13 @@ d.update({"age": 21, "marks": 90})
 # new_d = d.copy()
 # print(new_d)
 
-d.setdefault("country", "India")
+# d.setdefault("country", "India")
+# # print(d)
 
-keys = ("a", "b", "c")
-dict.fromkeys(keys, 0)
+# keys = ("a", "b", "c")
+# dict.fromkeys(keys, 0)
 
-print(keys)
+# print(keys)
 
-# print(d)
+
 
