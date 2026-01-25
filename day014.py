@@ -27,5 +27,7 @@ print(a > b or b < 5)   # Falsa
 a = 10
 print(not(a > 5))   # False
 
+age = 20
+print(age >= 18 and age <= 60)
 
 
