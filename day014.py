@@ -20,3 +20,12 @@ a = 10
 b = 20
 print(a > b or b > 5)   # True
 print(a > b or b < 5)   # Falsa
+ 
+
+
+                     #not Operator
+a = 10
+print(not(a > 5))   # False
+
+
+
