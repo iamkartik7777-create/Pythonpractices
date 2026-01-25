@@ -12,3 +12,11 @@ print(a > b and a > 0)   # True
 a = 10
 b = 5
 print(a < b and a < 0)   # False
+
+
+
+                       #or Operator
+a = 10
+b = 20
+print(a > b or b > 5)   # True
+print(a > b or b < 5)   # Falsa
