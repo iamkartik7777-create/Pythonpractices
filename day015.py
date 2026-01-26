@@ -49,6 +49,14 @@ else:
     print("B is greater")
                     
 
+               #Login validation (real-life example)
+username = "admin"
+password =str(input("Enter a Password:"))
+
+if username == "admin" and password == "1234":
+    print("Login successful")
+else:
+    print("Invalid credentials")
 
 
           
