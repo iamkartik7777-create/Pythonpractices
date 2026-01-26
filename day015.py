@@ -37,7 +37,17 @@ elif marks >= 60:
     print("Grade C")
 else:
     print("Grade D")
-  
+
+
+                  #Biggest of two numbers
+a = 10
+b = 20
+
+if a > b:
+    print("A is greater")
+else:
+    print("B is greater")
+                    
 
 
 
