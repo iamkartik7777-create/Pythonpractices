@@ -1,5 +1,5 @@
                  #Even or Odd number
-num =int(input("Even or Odd number:"))
+num =int(input("Even or Odd number  :"))
 
 if num % 2 == 0:
     print("Even number")
@@ -8,7 +8,7 @@ else:
 
 
                    #Check positive, negative, or zero (if–elif–else)
-num = float(input("Check positive, negative, or zero :"))
+num = float(input("Check positive, negative, or zero  :"))
 
 if num > 0:
     print("Positive number")
@@ -40,8 +40,8 @@ else:
 
 
                   #Biggest of two numbers
-a = 10
-b = 20
+a = float(input("ENTER A NUMBER OF A  :"))
+b = float(input("ENTER A NUMBER OF B  :"))
 
 if a > b:
     print("A is greater")
@@ -51,12 +51,23 @@ else:
 
                #Login validation (real-life example)
 username = "admin"
-password =str(input("Enter a Password:"))
+password =str(input("Enter a Password :"))
 
 if username == "admin" and password == "1234":
     print("Login successful")
 else:
     print("Invalid credentials")
 
+                        #Nested if–else example
+age =int(input("ENTER YOUR AGE :"))
+has_id = True
+
+if age >= 18:
+    if has_id:
+        print("You can enter")
+    else:
+        print("ID required")
+else:
+    print("Age must be 18+")
 
           
