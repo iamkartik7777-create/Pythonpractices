@@ -36,4 +36,33 @@ else:
     print("Invlid Input")
 
 
+#Q3) Input income and calculate tax:
+# • ≤2,50,000 → No tax.
+# • 2,50,001 – 5,00,000 → 5% tax.
+# • 5,00,001 – 10,00,000 → 20% tax.
+# • Above 10,00,000 → 30% tax.
+income=int(input("Enter your income: "))
+if income<250000:
+    print("no tax ")
+elif income>=250000 and income<500000:
+    print(int(income(0.05)))
+elif income>=500000 and income<1000000:
+    print(int(income(0.2)))
+elif income>=1000000:
+    print(income(0.3))
+income = float(input("Enter your annual income: "))
+
+if income <= 250000:
+    tax = 0
+elif income <= 500000:
+    tax = income * 0.05
+elif income <= 1000000:
+    tax = income * 0.20
+else:
+    tax = income * 0.30
+
+print("Income:", income)
+print("Tax to be paid:", tax)
+
+
 
