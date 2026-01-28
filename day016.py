@@ -36,7 +36,7 @@ else:
     print("Invlid Input")
 
 
-#Q3) Input income and calculate tax:
+#Q3 Input income and calculate tax:
 # • ≤2,50,000 → No tax.
 # • 2,50,001 – 5,00,000 → 5% tax.
 # • 5,00,001 – 10,00,000 → 20% tax.
@@ -63,6 +63,57 @@ else:
 
 print("Income:", income)
 print("Tax to be paid:", tax)
+
+# 4 Input time in 24-hour format and display:
+# • If time < 12 → "Good Morning".
+# • If 12–17 → "Good Afternoon".
+# • If 18–20 → "Good Evening".
+# • Else → "Good Night".    
+# Function to get input and handle the greeting logic
+
+def time_greeting_strict():
+    # Input time from the user
+    time_str = input("Enter the current hour (0-23): ")
+    current_hour = int(time_str) # Conversion to Integer is required for comparison
+
+    # Check for Good Morning (0 to 11)
+    if current_hour >= 0 and current_hour < 12:
+        print("Good Morning")
+    
+    # Check for Good Afternoon (12 to 17)
+    else: # If it's not Morning (i.e., time is 12 or greater)
+        if current_hour >= 12 and current_hour <= 17:
+            print("Good Afternoon")
+        
+        
+        else: 
+            if current_hour >= 18 and current_hour <= 20:
+                print("Good Evening")
+            
+            else: 
+                print("Good Night")
+
+
+#Q5  Weeks days
+day = int(input("Enter a number (1-7): "))
+
+if day == 1:
+    print("Monday")
+elif day == 2:
+    print("Tuesday")
+elif day == 3:
+    print("Wednesday")
+elif day == 4:
+    print("Thursday")
+elif day == 5:
+    print("Friday")
+elif day == 6:
+    print("Saturday")
+elif day == 7:
+    print("Sunday")
+else:
+    print("Invalid input! Please enter a number between 1 and 7.")
+
 
 
 
