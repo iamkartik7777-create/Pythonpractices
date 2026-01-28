@@ -114,6 +114,21 @@ elif day == 7:
 else:
     print("Invalid input! Please enter a number between 1 and 7.")
 
+#Q6 ATM , WITHDROW , DEPOSITE ,BALANCE CHECK
+Balance=10000
+
+atm=int(input("Enter 1 for withdrawl 2 for esposite 3 for balance check"))
+if atm==1:
+    amount=int(input("Enter Amount"))
+    if amount>0 and amount<=Balance:
+     print(Balance-amount)
+elif atm==2:
+    amount=int(input("Deposite amount"))
+    if amount>0 and amount:
+     print(Balance+amount)
+else:
+     print("Invalid amount")    
+
 
 
 
