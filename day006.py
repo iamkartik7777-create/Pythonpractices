@@ -1,16 +1,11 @@
 #Sum of even numbers from 1 to 100 is
-# sum_even = 0
+sum_even = 0
 
-# for i in range(1, 101):
-#     if i % 2 == 0:
-#         sum_even += i
+for i in range(1, 101):
+    if i % 2 == 0:
+        sum_even += i
 
-# print("Sum of even numbers from 1 to 100 is:", sum_even)
-
-
-
-
-
+print("Sum of even numbers from 1 to 100 is:", sum_even)
 
 
 # For loop example
@@ -68,10 +63,7 @@ for i in range(1, 6):
     if i == 3:
         continue
     print(i)
-
-
-
-
+    
 
 
 

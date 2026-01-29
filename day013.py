@@ -1,32 +1,32 @@
 #set
 s = {1, 2, 3, 3}
-# print(s)
+print(s)
 
-# s = {1, 2}
-# s.add(3)
+s = {1, 2}
+s.add(3)
 
-# s.update([4, 5, 6])
-# print(s)
+s.update([4, 5, 6])
+print(s)
 
-# s.remove(2)
+s.remove(2)
 
-# s.discard(10)
+s.discard(10)
 
-# s.pop()
+s.pop()
 
-# s.clear()
+s.clear()
 
-# print(s)
+print(s)
 
 A = {1, 2, 3}
 B = {3, 4, 5}
-# print(A | B)
+print(A | B)
 
-# print(A & B)
+print(A & B)
 
-#print(A - B)
+print(A - B)
 
-# print(A ^ B)
+print(A ^ B)
 
 print(2 in A)     # True
 print(10 in A)    # False

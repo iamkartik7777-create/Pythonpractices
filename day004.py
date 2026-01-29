@@ -107,7 +107,7 @@ locals()
 vars()
 
 
-# 📌 Most Important for Exams
+# Most Important for Exams
 
 # print()
 
