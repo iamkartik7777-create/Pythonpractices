@@ -16,6 +16,7 @@ for i in range(1, 5):
 for i in range(1, 5):
     print(str(i) * i)
 
+
 # Pyramid Pattern
 n = 3
 for i in range(n):
