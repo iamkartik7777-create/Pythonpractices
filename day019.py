@@ -17,13 +17,24 @@
 # Agar Marks 40 se 90 ke beech hain: Print karo "You passed."
 # Else (40 se kam): Print karo "Better luck next time."
 
-marks = int(input("Enter your marks: "))
+# marks = int(input("Enter your marks: "))
 
-if marks >= 90:
-    print("Excellent!")
-elif marks >= 40:
-    print("You passed.")
-else:
-    print("Better luck next time.")
+# if marks >= 90:
+#     print("Excellent!")
+# elif marks >= 40:
+#     print("You passed.")
+# else:
+#     print("Better luck next time.")
             
+# User se uski Salary pucho.
+# Agar salary 50,000 se zyada hai, toh print karo "You are rich!"
+# Agar salary 20,000 aur 50,000 ke beech hai, toh print karo "You are doing well."
+# Agar 20,000 se kam hai, toh print karo "Work hard!"
 
+salary = int(input("Enter your salary:"))
+if salary>=50000:
+         print("You are rich!")
+elif salary>=20000:
+         print("You are doing well.")
+elif salary<20000:
+        print("Work hard!")
