@@ -31,10 +31,32 @@
 # Agar salary 20,000 aur 50,000 ke beech hai, toh print karo "You are doing well."
 # Agar 20,000 se kam hai, toh print karo "Work hard!"
 
-salary = int(input("Enter your salary:"))
-if salary>=50000:
-         print("You are rich!")
-elif salary>=20000:
-         print("You are doing well.")
-elif salary<20000:
-        print("Work hard!")
+# salary = int(input("Enter your salary:"))
+# if salary>=50000:
+#          print("You are rich!")
+# elif salary>=20000:
+#          print("You are doing well.")
+# elif salary<20000:
+#         print("Work hard!")
+
+
+# for i in range(1,11):
+#     print(i,end=" ")
+
+# count = 5
+# while count >= 1:
+#     print(f"Count is: {count}")
+#     count = count - 1 
+
+
+# for i in range(1, 11):
+#     if i == 5:
+#         break  # 5 par aate hi loop ruk jayega
+#     print(i)
+
+
+count = 1
+while count <=3000:
+#     print()
+    print("I LOVE YOU:",count)
+    count +=1
