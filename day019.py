@@ -55,8 +55,11 @@
 #     print(i)
 
 
-count = 1
-while count <=3000:
-#     print()
-    print("I LOVE YOU:",count)
-    count +=1
+# count = 1
+# while count <=3000:
+# #     print()
+#     print("I LOVE YOU:",count)
+#     count +=1
+
+# for i in range(2, 21, 2):
+#     print(i , end=" ")
