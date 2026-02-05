@@ -94,3 +94,11 @@ for i in str(num):
     count += 1
 
 print("Digits:", count)
+
+text = "hello"
+rev = ""
+
+for ch in text:
+    rev = ch + rev
+
+print(rev)
