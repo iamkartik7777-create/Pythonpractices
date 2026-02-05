@@ -63,3 +63,26 @@
 
 # for i in range(2, 21, 2):
 #     print(i , end=" ")
+
+colors = ["red", "green", "blue"]
+
+for i in range(len(colors)):
+    print(i, colors[i])
+
+colors = ["red", "green", "blue"]
+
+for index, color in enumerate(colors):
+    print(index, color)
+
+
+total = 0
+
+for i in range(1, 11):
+    total += i
+
+print("Sum:", total)
+
+num = 5
+
+for i in range(1, 11):
+    print(num, "x", i, "=", num * i)
