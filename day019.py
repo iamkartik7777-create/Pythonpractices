@@ -86,3 +86,11 @@ num = 5
 
 for i in range(1, 11):
     print(num, "x", i, "=", num * i)
+
+num = 546
+count = 0
+
+for i in str(num):
+    count += 1
+
+print("Digits:", count)
