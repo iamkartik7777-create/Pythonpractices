@@ -64,41 +64,41 @@
 # for i in range(2, 21, 2):
 #     print(i , end=" ")
 
-colors = ["red", "green", "blue"]
+# colors = ["red", "green", "blue"]
 
-for i in range(len(colors)):
-    print(i, colors[i])
+# for i in range(len(colors)):
+#     print(i, colors[i])
 
-colors = ["red", "green", "blue"]
+# colors = ["red", "green", "blue"]
 
-for index, color in enumerate(colors):
-    print(index, color)
+# for index, color in enumerate(colors):
+#     print(index, color)
 
 
-total = 0
+# total = 0
 
-for i in range(1, 11):
-    total += i
+# for i in range(1, 11):
+#     total += i
 
-print("Sum:", total)
+# print("Sum:", total)
 
-num = 5
+# num = 5
 
-for i in range(1, 11):
-    print(num, "x", i, "=", num * i)
+# for i in range(1, 11):
+#     print(num, "x", i, "=", num * i)
 
-num = 546
-count = 0
+# num = 546
+# count = 0
 
-for i in str(num):
-    count += 1
+# for i in str(num):
+#     count += 1
 
-print("Digits:", count)
+# print("Digits:", count)
 
-text = "hello"
-rev = ""
+# text = "hello"
+# rev = ""
 
-for ch in text:
-    rev = ch + rev
+# for ch in text:
+#     rev = ch + rev
 
-print(rev)
+# print(rev)
