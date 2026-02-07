@@ -25,3 +25,8 @@ elif age >= 60:
     print("Senior Citizen")
 else:
     print("Invalid age")
+
+
+Sports = ['cricket', 'football', 'tennis', 'football', 'hockey']
+count = Sports.count('football')
+print(f"Football appears {count} times")
