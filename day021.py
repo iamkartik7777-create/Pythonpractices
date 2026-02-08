@@ -31,15 +31,15 @@
 # count = Sports.count('football')
 # print(f"Football appears {count} times")
 
-nums = [8, 2, 15, 1, 9]
-largest = nums[0]
-smallest = nums[0]
+# nums = [8, 2, 15, 1, 9]
+# largest = nums[0]
+# smallest = nums[0]
 
-for n in nums:
-    if n > largest:
-        largest = n
-    if n < smallest:
-        smallest = n
+# for n in nums:
+#     if n > largest:
+#         largest = n
+#     if n < smallest:
+#         smallest = n
 
-print("Largest:", largest)
-print("Smallest:", smallest)
+# print("Largest:", largest)
+# print("Smallest:", smallest)
