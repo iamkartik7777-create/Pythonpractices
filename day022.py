@@ -1,17 +1,14 @@
-# Second largest
+def find_second_largest(nums):
+    largest = second = float('-inf')
+    
+    for n in nums:
+        if n > largest:
+            second = largest
+            largest = n
+        elif n > second and n != largest:
+            second = n
+            
+    return second if second != float('-inf') else None
 
-def second_max(num):
-    largest = float("-inf")
-    second_largest = float("-inf")
-
-    for i in num:
-        if i>largest:
-            second_largest = largest
-            largest = i
-        if i> second_largest and i<largest:
-            second_largest = i
-    return second_largest
-
-li1 = [1,3,8,4,46]
-li2 = [1,4,6,3,5,3,4]
-li3 = [5,6,43,5,3,5,3]
+numbers = [10, 20, 4, 45, 99, 21]
+print(find_second_largest(numbers)) 
