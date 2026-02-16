@@ -6,5 +6,17 @@
 # print("Game Over!")
 
 
-for i in range(100):
-    print("Step number:", i)
+# for i in range(100):
+#     print("Step number:", i)
+
+# sahi_pin = "1234"
+# user_input = ""  
+
+# while user_input != sahi_pin:
+#     user_input = input("Apna 4-digit Pin dalein: ")
+    
+#     if user_input != sahi_pin:
+#         print("❌ Galat Pin! Dobara try karein.")
+
+# print("✅ Sahi Pin! Aapka paisa nikal raha hai...")
+
