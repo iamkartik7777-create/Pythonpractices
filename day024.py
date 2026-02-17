@@ -20,3 +20,7 @@
 
 # print("✅ Sahi Pin! Aapka paisa nikal raha hai...")
 
+x = 10
+while x > 5:
+    print("Value hai:", x)
+    x = x + 1  # Socho, kya x kabhi 5 se chhota hoga?
